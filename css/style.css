@@ -1,0 +1,462 @@
+/*Global Css*/
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+}
+
+.col-1{
+    float: left;
+    width: 8.33%;
+}
+
+.col-2{
+    float: left;
+    width: 16.6666%;
+}
+
+.col-3{
+    float: left;
+    width: 25%;
+}
+
+.col-4{
+    float: left;
+    width: 33.33%;
+}
+
+.col-5{
+    float: left;
+    width: 41.67%;
+}
+
+.col-6{
+    float: left;
+    width: 50%;
+}
+
+.col-7{
+    float: left;
+    width: 58.33%;
+}
+
+.col-8{
+    float: left;
+    width: 66.67%;
+}
+
+.col-9{
+    float: left;
+    width: 75%;
+}
+
+.col-10{
+    float: left;
+    width: 83.33%;
+}
+
+.col-11{
+    float: left;
+    width: 91.66%;
+}
+
+.col-12{
+    float: left;
+    width: 100%;
+}
+
+section{
+    float: left;
+    width: 100%;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+/*Header Section CSS*/
+.header{
+    background-image: url(../images/banner-image.png);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+}
+
+.header .navbar{
+    margin-top:10px;
+}
+
+.header .navbar .logo{
+    float: left;
+    width: 8%;
+}
+
+/*.header .navbar .logo img{}*/
+
+.header .navbar .menu{
+    float: left;
+    width: 92%;
+}
+
+.header .navbar .menu ul{
+    padding-left: 0px;
+    float: right;
+}
+
+.header .navbar .menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.header .navbar .menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 14px 20px;
+    border-bottom: 2px solid transparent;
+    transition: 0.4s;
+}
+
+.header .navbar .menu ul li:last-child a{
+    padding: 10px 30px;
+    border-bottom: none;
+}
+
+.header .navbar .menu ul li:last-child a:hover{
+    border-bottom: none;
+}
+
+.header .navbar .menu ul li a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.header .navbar .menu ul li .btn-login{
+    color: #4856f3;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.header .hero-text{
+    text-align: center;
+    margin-top: 110px;
+}
+
+.header .hero-text h1{
+    font-size: 56px;
+    color: white;
+    margin: 0px 13%;
+}
+
+.header .hero-text .get-started-btn{
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+/*.header .hero-text .get-started:hover{}*/
+
+/*about us section Css*/
+.about-us .abt-us-text h6{
+    color: #9f9f9f;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.about-us .abt-us-text{
+    text-align: right;
+    padding: 11% 14% 14% 14%;
+}
+
+.about-us .abt-us-text .inner-content{float: left;width: 100%;margin-bottom: 4%;}
+
+.about-us .abt-us-text h2{
+    font-size: 42px;
+    color: #171717;
+    padding-left: 20%;
+    margin-bottom: 12%;
+    word-spacing: 4px;
+}
+
+.about-us .abt-us-text h3{
+    color: #171717;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.about-us .abt-us-text p{
+    color: #505457;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.about-us .abt-us-img{
+    background: url(../images/about-section-img.png);
+    height: 555px;
+    background-position: center;
+    background-size: cover;
+}
+
+/*What we do Section CSS*/
+.we-do-section{
+    background-color: #faf8f5;
+    padding: 60px 0;
+}
+
+/*.we-do-section .list{}*/
+.we-do-section .list ol{
+    padding-left: 0;
+}
+
+.we-do-section .list li{
+    list-style: none;
+    text-align: left;
+    width: 232px;
+    background-color: #fff;
+    margin: 0px 29%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.we-do-section .list li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #9f9f9f;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.we-do-section .list li a span{
+    margin-right: 20px;
+}
+
+.we-do-section .list li a:hover{
+    color:#294af1;
+}
+
+.we-do-section .content{
+    padding-right: 25%;
+}
+
+.we-do-section .content h6{
+    text-transform: uppercase;
+    color: #9f9f9f;
+    margin-bottom: 16px;
+}
+
+.we-do-section .content h2{
+    color: #171717;
+    font-size: 42px;
+    margin-bottom: 22px;
+}
+
+.we-do-section .content p{
+    line-height: 1.7;
+    color: #505457;
+}
+
+/*Service Section*/
+.service{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.service .text-box{
+    margin: 0 30%;
+}
+
+.service h2{
+    font-size: 42px;
+    color: #171717;
+    margin-bottom: 20px;
+}
+
+.service p{
+    color: #9f9f9f;
+    line-height: 1.7;
+}
+
+.service .img-box{
+    text-align: left;
+    padding: 0 22%;
+    margin-top: 50px;
+}
+
+.service .img-box .img-only-box{
+    margin-bottom: 56px;
+}
+
+.service .img-box img{}
+.service .img-box h3{
+    margin-bottom: 20px;
+}
+
+.service .img-box p{}
+
+/*Get Started Section CSS*/
+.get-started{
+    background: url(../images/what-r-u-thinking-for.png);
+    background-position: center;
+    background-size: cover;
+    height: 420px;
+}
+
+.get-started .text-box{
+    text-align: center;
+    margin: 0 30%;
+    padding-top: 108px;
+}
+
+.get-started .text-box h2{
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 22px;
+}
+
+.get-started .text-box p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.7;
+}
+
+.get-started .text-box .get-started-button{
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: #171717;
+}
+
+.get-started .text-box :last-child{
+    color:white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+/*Our Client Section CSS*/
+.our-clients{
+    padding: 20px 0;
+}
+
+.our-clients .client-img-box1{
+    margin-top: 60px;
+}
+
+.our-clients .client-img-box2{
+    margin-top: 60px;
+}
+
+.our-clients .text-container{
+    padding: 94px 0;
+}
+
+.our-clients .text-container h6{
+    font-size: 14px;
+    color: #9f9f9f;
+    margin-bottom: 20px;
+}
+
+.our-clients .text-container h2{
+    font-size: 42px;
+    color: #171717;
+    word-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.our-clients .text-container p{
+    font-size: 14px;
+    color: #505457;
+    line-height: 1.7;
+    padding-right: 25%;
+}
+
+/*Footer Section Css*/
+.footer{
+    background: url(../images/footer.png);
+    height: 415px;
+    background-position: center;
+    background-size: cover;
+}
+.footer-box{
+    margin-top: 104px;
+}
+.footer .logo-footer{
+    font-size: 13px;
+    margin: 0px 16%;
+}
+.footer .logo-footer .logo-img-box{
+    margin-bottom: 28px;
+}
+.footer .logo-footer p{
+    color: #fefefe;
+    line-height: 1.7;
+}
+
+.footer .home-footer{}
+.footer .home-footer h3{
+    font-size: 16px;
+    color: #fefeff;
+    margin-bottom: 38px;
+}
+.footer .home-footer a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fefefe;
+}
+
+.footer .company-footer{}
+.footer .company-footer h3{
+    font-size: 16px;
+    color: #fefeff;
+    margin-bottom: 38px;
+}
+.footer .company-footer a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fefefe;
+}
+
+.footer .help-footer{}
+.footer .help-footer h3{
+    font-size: 16px;
+    color: #fefeff;
+    margin-bottom: 38px;
+}
+.footer .help-footer a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fefefe;
+}
+
+.footer .contact-footer{}
+.footer .contact-footer h3{
+    font-size: 16px;
+    color: #fefeff;
+    margin-bottom: 38px;
+}
+.footer .contact-footer p{
+    color: #fffefe;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
